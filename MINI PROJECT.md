@@ -3,12 +3,11 @@ i=0
 c=5
 number=random.randint(1,100)
 guess=0
-
 print("*** WELCOME TO THE NUMBER GUESSING GAME ***")
 print(" ")
 print("Guess a number between 1 to 100")
 print(" ")
-      
+
 while i<c:
     print(c-i,'try left')
     guess=int(input("Enter your Guess: "))
